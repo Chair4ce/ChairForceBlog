@@ -1,0 +1,246 @@
+---
+title: Part 1 - Guide to Agile Software in the Air Force - Build the Team
+date: '2022-11-30'
+tags: ['AgileAF', 'Air Force', 'Air Force Software Development', 'DoD Software Factory']
+draft: false
+summary: "It's not impossible to build full-stack software applications in the Air Force. You just need to build a team..."
+authors: ['jacyhoag']
+---
+
+If you are like me, constantly falling through the gaps of some of the most advanced lowest-bid software from 20 years ago,
+you might be looking for a way to fix your problems on your own. Well if you haven't heard it yet, _trigger warning_,
+unless you have been coding since you were in diapers chances are you won't be able to build anything fast enough to make
+a difference on your own, especially while you are wearing that shiny blue suit. You will need a team to fix stuff so
+get over yourself and start thinking about how to build one. First, run to the nearest hallway and yell "Assemble!"
+Well, in some cases it could be that easy however, I recommend spending a little more effort in following some of these
+techniques later in this article.
+
+Contrary to what you may believe, successfull software is built around teams not around problems. Sure, problems
+spark the need to build software, but you will never get anywhere fast just worrying about problems and not about who is
+on your team. A team that is locked in and hyper focused can solve just about _any_ problem so invest heavily on your team first.
+So where should you start? Here are some things to think about when building a software
+development team. I need super experienced coders right? Well, yes and no.
+
+After you are done pulling your hair out and yelling at your computer screen, stop and look around. Talk to people about
+your intention to build a solution, chances are you'll find some coders in your unit already hard at work and knee-deep in the
+trenches desperately clawing their way to one right now. Go to them and listen and then protect them at all costs.
+
+Many self-taught coders have similar beginnings as I did, making Access databases and quickly learning where the ceiling
+of VB Script is. Some are luckily enough to find platforms with python modules to build magnificent tools
+however fail to get an authority to operate (ATO). Many Airman who are capable of coding get extremely frustrated at the
+limited options available to build their solutions, many go into hiding and swear an oath never to code
+on NIPR again. Good luck finding those unicorns that still want to code. Some souls have not been crushed yet and have only
+recently begun their curious adventure into coding. Those uncrushed souls will have a refreshingly positive attitude and
+aptitude for software development. The point is, don't hang your entire project on a really experienced coder, show some
+trust for those that may be new to coding but have incredible aptitude for learning, they may surprise you.
+
+---
+
+## Assemble!
+
+Probably one of the most difficult things to do in the Air Force is finding people that code and obtain permission from
+their leadership to step away from their normal job and work on a software development team. The return on investment
+isn't easily understood and quickly rejected by commanders if you don't sell it the right way.
+
+Before you convince commanders you should first find out if there are any coders in your unit and if they have the attitude
+and aptitude to build software. I mentioned building software is hard right? well it is, and it requires certain character
+traits and personalities to be great at it. You can't just go with anyone that signs up no matter how bad you want to
+build a team right now. This process may take some patience and a great deal of luck. One way to find talent is a survey. (Example: [Red 5 Survey](https://docs.google.com/forms/d/e/1FAIpQLSeA1lHmz7UM75lYM4l3Vls_pnmTcp90LGMNKkhdRJKU2OeMlw/viewform?embedded=true 'Red 5'))
+This was quite successful for us in finding team members. We shaped roles into three main positions and tried to ask questions
+to gain surface level understanding of their aptitude for building software. We followed this up with a series of interviews by phone
+and in-person with each step to flag potentially unwanted traits that may not be compatible with our team. This part is something
+you need to be cautious with. Your leadership may want to control this, and you need to find a way to
+navigate their intentions and still get the right kind of talent for your team. Insist that the hiring authority remains
+in-house and not in the hands of someone that does not understand your team dynamic needs. Ideally we wanted all of these
+roles and each required its own special personality. These are listed in order from the easiest to the hardest position to fill with talent:
+
+- Product Manager
+- Software Designer
+- Software Engineer
+- Stakeholder
+- Software Designer
+- Someone to just write EPRs (The real MVP)
+
+I could elaborate on each one and I probably will at some point but the point I want to make here is really about talent management, the Air Force
+isn't great at it yet, but it is getting better. It may be very difficult to find talent in your unit and if you find them
+there is still the hurdle of convincing their leadership to give them up. Software development is full time, period.
+It's not an additional duty, it's not a weekend or night thing so don't try to sell it like it's something they can on
+the side in addition to their mission, it's all or nothing.
+In order to get permission to use the talent within your organization you need to
+prove business value. After you identify talent make sure you have business value in your
+back pocket and ready to present when commanders ask you: "Why the hell should I give up 3-4 bodies to software development?"
+I suggest you use other examples of success like [TRON](https://www.linkedin.com/company/tron-air-force 'TRON'),
+[Kobayashi Maru](http://nodeca.github.io/pica/demo/ 'Kobayashi Maru'), or [Kessel Run](https://kesselrun.af.mil/ 'Kessel Run')
+along with some preliminary data science on potential problems to highlight specific business value that could be used
+solve mission gaps. Oh yea, don't forget to figure out how much it will cost too. We built 5 full stack web applications for less than $100K,
+I'd like to see you try and beat that. Yea, Yea, I know, we failed. I'll explain what happen in the end but that's for a
+future post. First I have to go over all the good stuff! Until then, how do you think we convinced commanders of 5 squadrons and 1 group
+that we could build something valuable for them and to let us do it full time, for 4 years!? Honesty I don't fully understand
+why they allowed us to, it was a lot of risk. But to understand that fully I will need you to understand how we executed problem discovery and scoping. I will share some
+techniques we used to create a business model canvas for each one of our apps to better communicate value before we even started writing any code.
+
+## What I think recruiting & onboarding could look like
+
+Here is an early hack at trying to solidify some kind of onboarding process. Just like technologies that make up software stack there are specific roles you need
+to deliberately develop the members that just arrived at your team. A question that will come up often from your leadership is how will you train team members?
+
+![FullStack](FullStack.png)
+
+### Phase 1.
+
+Solicit members to fill positions on a 9-12 month rotation. You will need to prep all commanders and SELs on how you plan to recruit:
+
+See attachment 1 for the ‘hard copy’ backup of the survey.
+
+### Phase 2.
+
+The SDT Product Managers reach out to members that have survey responses in keeping with the goals of the team either by phone or email. SDT product managers schedule a Q&A session with the potential team member and the current members of the position of interest, i.e product designers, product managers, or software engineers. The Product Manager will send out a calendar invite on NIPRNet to the member and include, current SDT members attending, the member’s Flight Chief, and CEM for situational awareness.
+
+### Phase 3.
+
+If the member passes the Q&A session, he or she will be asked to complete a more in-depth pairing session where and SDT member will run through some applicable programs and troubleshooting to assess the member’s knowledge and ability to adapt and learn. Member’s Flight Chief and CEM will again be included in the calendar invite for situational awareness.
+
+### Phase 4.
+
+If phase 3 goes well, the Cyber Flight Superintendent and/or SDT Section Chief will attend the next available 497 ISRG Deliberate Development Briefing (DDB) to provide an update on the members we would like to join the team. Those leaders will make a determination, possibly at a later date, whether the mission and manning permits the member to join the team. SDT Section Chief will follow up as necessary.
+
+### Phase 5.
+
+The following training will be completed on lynda.com by new members upon assignment to the Software Development Team:
+
+#### Product managers:
+
+- Primary research techniques (1hr 2m)
+- Product Management and development foundations (1hr 15m)
+- Technology for Product Managers (45m)
+
+#### Product Designers:
+
+- Figma for UX Designers (1hr 44m) - OR –
+- Sketch for UX Designers (2hr 48m)
+- Primary research techniques (1hr 2m)
+
+#### Software Engineers:
+
+- Understanding front end and back end (2hr 38m)
+- IDE Training (2hr 16m)
+- Choose the following Learning Path as applicable to the project:
+- Become a Java Programmer (2000hrs)
+- Become a Python Developer (1300hrs)
+
+### Phase 6.
+
+Hands-on training will be completed with an experienced SDT member from the previous cycle. Training is completed in a
+“pairing” method with a mirrored monitor and keyboard/mouse similar to pilot/copilot training. That pair will continue
+to work as a team until the previous cycle member rotates back to their unit. The process will continue in the manner. Cycles are ideally a 9-month continuous period.
+
+### Phase 7.
+
+Special exceptions: Occasionally training comes up outside the norm, i.e. Amazon Web Services, Innovation Fellowships,
+Wing offered courses, etc. That training will be completed, ideally before a member joins the team, as the mission allows and depending on how applicable it will be to the SDT mission.
+
+Now of-course this is bust barebones framework which you should expand on to fit your team. You might want to have something
+similar to give the enlisted leader the warm and fuzzy that you have a plan. Does it work? not sure. We
+did get a great deal of interest from Airmen around the group that wanted to join but their leadership was apprehensive
+about sending them in the fire without a plan. The need for a training plan wasn't necessarily "organic" because we
+had a lot of talent when we started and training was built into our daily routine. Our product was our training. Building
+a training plan that you never follow is stupid which is one of my biggest gripes about the Air force. Every office had to have a training plan but 99% of
+the force ever uses one.
+
+Most leadership from the squadrons were worried about their return on investment. What were they getting after the member
+came back to their unit after 9 months of software development? Well we made a point to try and solve problems for the
+commanders we solicited for team members. We showed them how it would benefit them to help us make solutions that supported
+their mission. And It worked. Over time, we didn't have to convince them anymore, they knew the value would be there.
+
+Okay so you built a team, now what? Building an environment that
+allows your team to respect each other will be difficult, teams don't get along by default, and it's up to you as a
+product manager to establish this framework from the beginning. These techniques will help you build a culture that
+minimizes toxic interactions that deteriorate your teams' cohesiveness. These may seem simple, but they will have a
+profound impact on your ability to solve problems quickly and effectively. Don't be lazy and just start doing stuff
+you may think some of these are stupid or unnecessary, but I guarantee you they never taught how to argue ideas in basic training.
+Build and enforce culture first before you start doing anything, or I promise you will fail miserably.
+
+### Ideas over Rank
+
+First up: Rank--it's structured, rigid, defines dominance, authority, and responsibility in a military hierarchy, and it
+does not belong in a software development team. Rank has relevance to a person's experience in the military however,
+rank has zero value in this environment. Ideas are the single most important resource to an SDT and we have
+yet to find something that beats an old-fashion good idea. To help remind you of this philosophy on a daily basis refer
+to each other by first name (in the office only). This allows you to establish an environment described, very well by
+Kessel Run, as “Psychological Safety”. Establishing a system that levels the playing field proves to address common team
+issues and provide a healthy environment where people can contribute to the idea pool without being intentionally or
+unintentionally suppressed by rank. If you ever witness a team member saying "I think we should write this application
+in java because I am a Tech Sergeant, and you're an A1C" get that person out of your team now. When you level the playing
+field like this you have to equip your team with ways to determine the best idea. One method is to promote arguing.
+Call it healthy discussion if you want, doesn't matter. You need a way for the best idea to come out as the victor and
+not someone's ego.
+
+### The Chicken and The Pig
+
+To establish a framework for arguing you need a common method for your team to communicate their stances on ideas.
+In order to grow as a team you must promote discussion, and it must be encouraged to reach an end state
+of agreement or compromise on either party. If you don't equip your team with tools to argue over a particular problem
+you cannot continue until both members are on the same page or productivity will suffer. Most team members will avoid
+conflict at all cost and this is the absolute worst way to produce great software. You must create an environment that
+allows for maximum flow of ideas. If you have an engineer on your team that doesn't stand up for their ideas
+because they are afraid of being shut down for whatever reason; new on the team, lack of experience, or lack of confidence,
+they will not feel like they are contributing. Even new team members, on day one, need to
+feel like they are contributing in some way. As soon as you make a team member
+feel like their ideas are crap their attitude flips almost instantly, and you can see the excitement they once had just disappear. Maybe their ideas are not very good however, overtime they will learn and their ideas will improve
+and develop, and they will learn how to stand up for their ideas. At least make them feel like they are adding value to the team and not just doing what someone told them to do.
+So how do you argue anyway? There are many ways and this but here is a good scenario to start with:
+
+Imagine you now have the task to cook bacon and eggs with someone you are in opposition to, we'll call it _the breakfast of resolution_. If you are the chicken all you have to do is provide
+a few eggs which would be very easy for you to do without sacrificing much of yourself in the process, so you would say
+“I am chicken.” I know it sounds silly but this communicates that you are willing to submit to the opposing idea without any further discussion and move on with your life. If
+you are Pig then you would have to provide the bacon which is a lot to ask for. If you are willing to provide your own
+bacon for this meal then you feel very strongly about your idea, and then you would say “I am
+pig” because you believe that your idea is the best method moving forward. Ideas are more important than egos
+so let the best idea win. If you are pig on any idea be prepared to back it up, your
+opposing team member may also be pig on their idea and I cannot stress to you how important and great this is!
+This is very healthy but if you don't establish this kind of framework at some point before arguments start you will run the
+risk of some of your team members feeling they are being bullied. Sorry but most people really don't know how to argue. Build this environment, so they have the best chance at resolution. Once you
+know where your opposing member stands you can now respectfully present your ideas and may the best idea win!
+
+Make it a sport! Allow the team member that presented the winning idea to claim victory like a badge of honor and encourage
+it wherever possible even if it’s simple. Remember to promote respectful exchanges and establish
+this method making it very clear that rank should never be involved. You will be surprised at
+what you can learn about your team during this process even if they think it's stupid. This tool can create amazing outcomes for your team and the best
+ideas tend to win, solving problem faster with higher quality solutions.
+
+Pro-tip: Set up a friendly argument during an interview session with a potential team member to see how they handle themselves.
+If they are overly aggressive and clearly not able to handle a difference of opinion that could be a red flag.
+I don't care how well you code, no one wants that kind of toxicity on their team, unless it's the song playing on the radio. I love that song.
+
+### Protect the bubble
+
+Most solutions to complex software problems are not developed as quickly as most people might think. Usually there is a
+process that has to spin up before engineers are in the right state of mind before they can even begin to form a solution.
+This state of mind is associated with a feeling of confidence in your abilities as you are applying your skills to a
+challenging and interesting problem. You begin to lose track of time, feeling ‘in the zone’ as you work through complex
+relationships and dependencies in your head – sometimes reaching that crescendo of the 'Eureka' moment when the solution
+materialises. This flow state is the most valuable pairing technique engineers have to create great software. One of our
+biggest challenges was not building the software, but the distractions that pulled us out of this flow state. One of the
+most common distractions we experienced were people coming to our office and knocking on the door to chat.
+
+Your team will naturally be isolated, in a bubble, from the rest of the unit. When you are performing this kind of
+mission everyone on the outside will be curious and want to see what you are doing. They will stop by at all hours of
+the day to have all sorts of conversations, each with multiple tangential stories and discussions, that eventually eat
+away at your time and distract your engineers from reaching any kind of flow state. This is a major set-back, and it
+happens, so often we had to come up with some protective measures to minimize this distraction.
+
+We had a term called ‘protect the bubble’ that refers to how we engage with people that knock on our door or try to
+stop by for a chat. In order to handle that situation we keep our door locked and when someone knocks we step out, close
+the door and to talk to them outside, to not interrupt the engineers flow state. Even a polite knock is jarring to
+everyone and disruptive enough to pull engineers out of flow state. In order to minimize the constant knocking throughout
+the week make the team available for walk-in visits once every two weeks. We take a break from our product, open our door
+and encourage everyone to stop by during that time to chat. CAUTION: This may seem rude to many people, especially in the
+military with higher rank. Most people, innocently enough, are simply not aware of how much they are affecting the
+performance and delivery of a product you are currently working on when they stop by on a whim to chat. If they ask why
+you are not letting them in the room kindly explain what flow state is and why it’s so important not to interrupt it.
+
+## Conclusion
+
+In a perfect acquisitions world we wouldn't need software development teams, we should be able to request features and have
+them delivered in days not years. I am fighting for this right now at the wing, I am simultaneously for and against the idea of an SDT.
+Unfortunately we still need them so strap in start building something now, or we will lose the next war.

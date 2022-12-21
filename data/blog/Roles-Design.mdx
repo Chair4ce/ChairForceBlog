@@ -1,0 +1,84 @@
+---
+title: Part 3 - Guide for Small Agile Software Development Teams in the Air Force
+date: '2022-12-02'
+tags: ['AgileAF', 'Air Force', 'Air Force Software Development', 'DoD Software Factory']
+draft: false
+summary: 'User-Centered Designer'
+authors: ['jacyhoag']
+---
+
+## User-centered Designer
+
+Designing software for the military is unique. For a while, techniques used by designers in the outside industry did not translate
+all that well for us. Back then most of us prioritized utility over design. 4 years ago most users
+I interviewed showed the most concern about how many clicks it took for them to do their job.
+
+Now, things are starting to shift, and we have more software to choose for our mission. So with that I think these concepts will
+be even more important now especially for Air Force software factories, contracts and small businesses in the SIBR program.
+
+A sample of some industry concepts we used:
+
+- [Design Principles](https://docs.google.com/document/d/1oAKjICPTfrm0KsDCCaTNV9UT6vj31nA-aPmbDVk63hc/edit?usp=sharing 'Design') by [Ruihai Youngblood](https://www.linkedin.com/in/ryoungblood 'Linkedin Profile')
+
+### The big three Design Principles
+
+If I could boil down to just three concepts that will help you become a successful designer in the military:
+
+1. Validate Assumptions and keep it simple - Users are dumb. Yea, I said it. They are so dumb you could put a 500px by 500px button with a
+   ginormous floppy disk icon and the word "SAVE" in all caps on a form, and they won't ever see it. Sometimes they will be afraid
+   to click on it because they won't know what it does... what's obvious to a designer is not obvious to your user.
+   Treat them like a 2-year-old, and you will be their hero. You might think: "oh they will learn my design eventually, so I can start adding more complex layouts"--absolutely not.
+   They will cycle out of the unit before you can rely on the memory of your users. Stick to simple designs.
+
+2. The observation effect is real - Figure out how to question and observe users without influencing them in any way.
+   When you try to observe them as they go through that experience they described as a problem first hand, other problems that never existed before will surface because of the stress
+   you cause them as you observe. They do wierd shit when they know they are being watched.
+
+3. Understand Risk Mitigation, planned and unplanned technical debt - What are the costs of your solutions and designs? Time, effort, money, impact, effectiveness?
+   Do the engineers know what they are getting into when they build your designs? Are you going to create technical debt that your team can't get out of?
+
+I will go over more of what designers do as it relates to the phases of a product life cycle, it requires much more context and is too much for this post.
+
+Software design is by far the hardest to master, everyone underestimates the amount of work required and often dumps all
+of that responsibility onto engineers thinking they can do both. For the most part we had two designers on our team, and
+it was great. I think they are so important that when we lost one of our designers due to PCS and were unable to replace them, it triggered a chain of events that
+ultimately led to our failure. When you have to pick up the slack even for 1 designer it's too much.
+
+This role is so important, don't put this on your engineers, please!
+
+Before I go into the product life cycle I want to briefly go over the three main roles that were critical to our success. I suggest you really consider filling 2 people in each of these positions no matter what you are building: Product Manager, User-Centered Designer and Software Engineer. We were so worried about filling these positions that
+we contemplated if we could really meet our goals for the project if we lost even one member permanently without a replacement.
+Manning is and always will be a concern. Not having this structure fully staffed I think was a major contributing factor that led to our destruction. You will need to constantly recruit new members even if your team is full! Here's how we shaped each one of theses crucial roles:
+
+## Product Manager
+
+Vision leader and director of experiments.
+
+Our product managers followed the Lean Product Management philosophies of Eric Ries, relying on a consistent experimentation
+cycle to build, measure, and learn what brings value to our enterprise. They operate as liaisons between our stakeholders
+and our team, guiding operations toward small, valuable iterations proven through data analytics and user interviews.
+The product managers translate necessary features from our design team into the quickest slices of software that they can
+put in the hands of users to receive feedback.
+
+Instead of listing every single responsibility here are three concepts I think are the most important:
+
+### Responsibilities:
+
+1. Learn scientific theory - Establish a baseline performance (control) and a hypotheses of some value (assumption) and
+   develop metrics of observation on the behaviors of your users that prove your assumptions.
+   Use these proofs to validate each feature. ex: _We know we are successful when we observe users doing X, Y and Z 30 minutes faster than before_.
+
+2. Be a catalyst not the director - Be the drummer in the band, whose name no one remembers, but they can't make any music without you.
+
+3. Eliminate stakeholder bias rooted in unvalidated fear - You will find all kinds of fear within your users and stakeholders.
+   We experienced a common fear that was associated with malice intent of other users.
+   If you don't validate this fear and let stakeholders scope creep with permission based features it will cast a huge amount of unnecessary technical debt at the beginning of your project. We had
+   stakeholders tell us they wanted to know exactly who deleted a record in our app just so they know who to blame. I mean we still did it, we just put that feature towards the end somewhere--_if we got around to it_.
+
+Just like the design role there are a lot of responsibilities that align with a specific phases in the product life cycle. I will save some of that for a later post.
+
+## Software Engineer
+
+![FullStack](/static/images/engineerstack.png)
+
+### Responsibilities:

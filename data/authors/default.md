@@ -1,16 +1,17 @@
 ---
-name: Tails Azimuth
+name: Jacy Hoag
 avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
+occupation: 'Dad'
+company: 'Self'
+email: chairforceone@icloud.com
 twitter: https://twitter.com/Twitter
 linkedin: https://www.linkedin.com
 github: https://github.com
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
-
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Experienced Software Designer, Engineer and Product Manager with a demonstrated history of working in the
+military industry. Skilled in Java, JavaScript, SQL, React.js, VBA, FIGMA, Adobe Lightroom/Photoshop,
+Team Building, Public Speaking, Project Management, Microsoft Access, Software Design UI/UX and 3D printing.
+Strong network infrastructure design and engineering professional early in my career and now I have shifted
+to working on a Bachelor's degree in Information Technology with a concentration in Programming from American
+Military University.
