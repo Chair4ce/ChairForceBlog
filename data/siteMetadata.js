@@ -11,11 +11,10 @@ const siteMetadata = {
   image: '/static/images/logo.png',
   socialBanner: '/static/images/twitter-card.png',
   email: 'chairforceone@icloud.com',
-  github: 'https://github.com',
-  twitter: 'https://twitter.com/Twitter',
+  github: 'https://github.com/Chair4ce',
+  twitter: 'https://twitter.com/Chair_Force_One',
   facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
+  linkedin: 'https://www.linkedin.com/in/jacy-hoag',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
@@ -51,7 +50,7 @@ const siteMetadata = {
       metadata: '0',
       // theme example: light, dark, dark_dimmed, dark_high_contrast
       // transparent_dark, preferred_color_scheme, custom
-      theme: 'light',
+      theme: 'dark',
       // Place the comment box above the comments. options: bottom, top
       inputPosition: 'bottom',
       // Choose the language giscus will be displayed in. options: en, es, zh-CN, zh-TW, ko, ja etc

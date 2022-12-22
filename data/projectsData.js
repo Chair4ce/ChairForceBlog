@@ -1,19 +1,13 @@
 const projectsData = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
-  },
-  {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'Squadron Manpower Tracking Suite',
+    description: `Do you print out BLSDM files and pour over them manually to determine what billet to assign incoming members? 
+    What if you had a a complete view of your squadrons billet allocation and auto assign based on a few criteria you determine?
+     What if you could track everything from annual to upgrade skill-level training, annual requirements, awards and decs, and everything in between. 
+    Do you know which skill-levels you need to request in the next 12 months to prepare you mission for the future? How fast 
+    can you determine the health of your squadron when you lose billets or members?`,
+    imgSrc: '/static/images/turbine.png',
+    href: '',
   },
 ]
 
