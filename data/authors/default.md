@@ -1,8 +1,8 @@
 ---
 name: Jacy Hoag
 avatar: /static/images/avatar.png
-occupation: 'Dad'
-company: 'Self'
+occupation: ''
+company: 'Air Force'
 email: chairforceone@icloud.com
 twitter: https://twitter.com/Twitter
 linkedin: https://www.linkedin.com
