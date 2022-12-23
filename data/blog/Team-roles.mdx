@@ -1,0 +1,188 @@
+---
+title: Part 3 - Guide for Small Agile Software Development Teams in the Air Force
+date: '2022-12-02'
+tags:
+  [
+    'AgileAF',
+    'Air Force',
+    'Air Force Software Development',
+    'DoD Software Factory',
+    'Engineer',
+    'User Centered Designer',
+    'Product Manager',
+    'Team Roles',
+  ]
+draft: false
+summary: 'Team Roles'
+authors: ['jacyhoag']
+---
+
+Before I go into the product life cycle I want to briefly go over the three main roles that were critical to our success.
+I suggest you really consider filling 2 people in each of these positions no matter what you are building:
+
+- User-Centered Designer
+- Product Manager
+- Software Engineer
+
+We were so worried about filling these positions that we contemplated if we could really meet our goals for the project if we lost even one member permanently without a replacement.
+Manning is and always will be a concern. Not having this structure fully staffed I think was a major contributing factor that led to our destruction.
+You will need to constantly recruit new members even if your team is full! You won't always know when a member of your team will want to leave or need to leave.
+
+Here's how we shaped each one of theses crucial roles:
+
+## User-centered Designer - Champion of user problem solving
+
+Designing software for the military is unique. For a while, techniques used by designers in the outside industry did not translate
+all that well for us. Back then most of us prioritized utility over design. 4 years ago most users
+I interviewed showed the most concern about how many clicks it took for them to do their job.
+
+Our designers utilize the think > make > validate process. They use a wide variety of design studio tools like Figma,
+Sketch, and various Adobe Products to create prototypes and test new application features. Designers measure the effect
+of new features through user interviews before they are actually implemented by the engineers. A designer should:Understand
+the user’s role and accurately capture personas,
+
+- Build low and high fidelity prototypes using their favorite graphic design
+  tools,
+- Develop and conduct effective user interviews that result in valuable feedback while minimizing unnecessary feature
+  bias, and
+- Deliver features that add the most value.
+
+Products should be something that users want and solves real problems. Designers’ primary question
+is, “How is the user affected?” Designers more than anyone else on the team will help us solve for, “Is this a problem for
+users?” We expect our designers to be full-stack — they can easily shift between IA (Information Architecture), UI (User
+Interface), and UX (User Experience) skills as needed, as well as implementation.
+
+Now, things are starting to shift, and we have more software to choose for our mission. So with that I think these concepts will
+be even more important now especially for Air Force software factories, contracts and small businesses in the SIBR program.
+
+A sample of some industry concepts we used:
+
+- [Design Principles](https://docs.google.com/document/d/1oAKjICPTfrm0KsDCCaTNV9UT6vj31nA-aPmbDVk63hc/edit?usp=sharing 'Design') by [Ruihai Youngblood](https://www.linkedin.com/in/ryoungblood 'Linkedin Profile')
+
+### The big three Design Principles
+
+If I could boil down to just three concepts that will help you become a successful designer in the military:
+
+1. Validate Assumptions and keep it simple - Users are dumb. Yea, I said it. They are so dumb you could put a 500px by 500px button with a
+   ginormous floppy disk icon and the word "SAVE" in all caps on a form, and they won't ever see it. Sometimes they will be afraid
+   to click on it because they won't know what it does... what's obvious to a designer is not obvious to your user.
+   Treat them like a 2-year-old, and you will be their hero. You might think: "oh they will learn my design eventually, so I can start adding more complex layouts"--absolutely not.
+   They will cycle out of the unit before you can rely on the memory of your users. Stick to simple designs.
+
+2. The observation effect is real - Figure out how to question and observe users without influencing them in any way.
+   When you try to observe them as they go through that experience they described as a problem first hand, other problems that never existed before will surface because of the stress
+   you cause them as you observe. They do wierd shit when they know they are being watched.
+
+3. Understand Risk Mitigation, planned and unplanned technical debt - What are the costs of your solutions and designs? Time, effort, money, impact, effectiveness?
+   Do the engineers know what they are getting into when they build your designs? Are you going to create technical debt that your team can't get out of?
+
+I will go over more of what designers do as it relates to the phases of a product life cycle, it requires much more context and is too much for this post.
+
+Software design is by far the hardest to master, everyone underestimates the amount of work required and often dumps all
+of that responsibility onto engineers thinking they can do both. For the most part we had two designers on our team, and
+it was great. I think they are so important that when we lost one of our designers due to PCS and were unable to replace them, it triggered a chain of events that
+ultimately led to our failure. When you have to pick up the slack even for 1 designer it's too much.
+
+This role is so important, don't put this on your engineers, please!
+
+## Product Manager - Vision leader and experimentalist
+
+Our product managers followed the Lean Product Management philosophies of Eric Ries, relying on a consistent experimentation
+cycle to build, measure, and learn what brings value to our enterprise. They operate as liaisons between our stakeholders
+and our team, guiding operations toward small, valuable iterations proven through data analytics and user interviews.
+The product managers translate necessary features from our design team into the quickest slices of software that they can
+put in the hands of users to receive feedback.
+
+Instead of listing every single responsibility here are three concepts I think are the most important:
+
+### Responsibilities:
+
+1. Learn scientific theory - Establish a baseline performance (control) and a hypotheses of some value (assumption) and
+   develop metrics of observation on the behaviors of your users that prove your assumptions.
+   Use these proofs to validate each feature. ex: _We know we are successful when we observe users doing X, Y and Z 30 minutes faster than before_.
+
+2. Be a catalyst not the director - Be the drummer in the band, whose name no one remembers, but they can't make any music without you.
+
+3. Be thorough and follow through. Never leave a stone unturned. Validate all assumptions that drive your features, or you will deliver useless stream of features that are not used.
+
+Just like the design role there are a lot of responsibilities that align with a specific phases in the product life cycle. I will save some of that for a later post.
+
+## Software Engineer - The Highly opinionated puzzle mechanic
+
+![FullStack](/static/images/engineerstack.png)
+
+Engineers should follow the Extreme Programming philosophies of Kent Beck, relying on paired programming and test-driven
+development to implement application features, using a red > green > refactor process. Engineers operate as full-stack
+engineers who code both frontend (i.e. React via Javascript/Typescript) and backend (i.e. Spring via Java/Kotlin) while
+maintaining version control (i.e. Gitlab) for robust applications involving multiple user experiences, APIs, and GUIs.
+They deploy our applications to a platform as a service that rests on infrastructure as a service. Right now there are
+many to choose from. Your engineers will need to secure a platform soon if you plan on delivering anything that can reach
+your users. Your engineers will also influence business decisions based on technical complexity, estimate the complexity
+and effort required for user stories,implement app features via well-tested code, and commit and test those features via
+CLI and user interviews.
+
+## Responsibilities:
+
+### Paired Programming
+
+On the software development team, engineers should always work in pairs to develop code. This helps with communication and understanding
+of the feature being developed. Paired programming also helps with teaching new team members and gives the engineering
+section better context on the code being added.
+
+### Test Driven Development (TDD)
+
+Engineers should always follow a software development process that involves writing tests for code before actually
+writing the code itself. The tests are used to guide the development of the code and ensure that it is functional and
+meets the desired requirements. After writing the code, the tests are run to verify that the code passes all the tests.
+If any tests fail, the code is revised until all tests pass. This process helps to ensure that the code is of high
+quality and only does what it is intended to do. There are three main types of tests used in TDD: unit tests, integration
+tests, and acceptance (UI) tests. Unit tests test small parts of the code, such as functions or components, while
+integration tests check how different parts of the code work together. Acceptance tests simulate user interactions with
+the code and test essential features of the application. TDD helps to control the development of code, improve its
+quality, and make it easier to maintain.
+
+### XP Engineer Self-Assessment
+
+A good way to understand the skill level of your engineers is for them to self evaluate. This should be done every
+few months or month to see how your engineers are improving. This is not a pass or fail kind of situation. This is a tool to help
+understand where to start teaching your engineers or general weak areas. You don't get any points for fluffing these either, they should be
+brutally honest with themselves and their team. These kind of assessments can help the rest of the team know how far to
+push the skill of your engineers in the features they design. Just throw a 0-3 in these categories and encourage them to discuss
+with the rest of the engineers.
+
+| Engineering                                                                                                  |
+| ------------------------------------------------------------------------------------------------------------ |
+| Writes tests to describe software behavior at different levels of abstraction                                |
+| Commits code that is as simple as possible while being reasonable, clear, readable, and reusable             |
+| Incorporates the user's perspective when making engineering decisions                                        |
+| Understands and can use diverse testing strategies when appropriate (e.g. mocking & faking, unit vs UI/E2E)  |
+| Executes on the red-green-refactor cycle                                                                     |
+| Able to work in and own the full engineering stack: backend, frontend, testing, code quality, deployment, CI |
+
+| Communication and Feedback                                                                      |
+| ----------------------------------------------------------------------------------------------- |
+| Actively seeks to share ownership of code and development                                       |
+| Maintains a sustainable pace                                                                    |
+| Communicates technical approaches, discoveries, and challenges clearly and effectively          |
+| Listens to others well and learns from teammates                                                |
+| Works with the whole team, including product and design, to understand and clarify user stories |
+| Provides feedback that is actionable, specific, and kind                                        |
+| Responds to feedback in an open and positive manner                                             |
+
+| Enablement                                                                                   |
+| -------------------------------------------------------------------------------------------- |
+| Appreciates and can explain the values and goals behind lean/XP practices/TDD                |
+| Understands when it is appropriate to act assertively and when to defer to others            |
+| Understands and can lead/facilitate different parts of the process (IPM, retro, pairing)     |
+| Seeks to understand and empathize with processes and values where they differ from own       |
+| Is flexible about and actively refines process specifics while maintaining lean/agile values |
+
+If you preferred to use something with much more detail checkout the
+
+[Engineering Skill Matrix](https://docs.google.com/spreadsheets/d/1LA9OU4yPMsEHgLe6dNANtYWmJnTZNdGR6i9TCSiMhao/edit?usp=sharing)
+
+## Good Reading
+
+[TDD: "What it is and what it is not" by Andrea Koutifaris](https://www.freecodecamp.org/news/test-driven-development-what-it-is-and-what-it-is-not-41fa6bca02a2/)
+
+[Introduction to TDD (Sylvain Saurel)](https://hackernoon.com/introduction-to-test-driven-development-tdd-61a13bc92d92)
