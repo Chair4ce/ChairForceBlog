@@ -2,7 +2,7 @@ const siteMetadata = {
   title: 'Chair Force Blog',
   author: 'jacyhoag',
   headerTitle: 'ChairForceBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
+  description: 'A blog about software development',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://chair-force-blog.vercel.app/',
