@@ -1,7 +1,7 @@
 const siteMetadata = {
-  title: 'Chair Force Blog',
+  title: 'Blog',
   author: 'jacyhoag',
-  headerTitle: 'ChairForceBlog',
+  headerTitle: 'Blog',
   description: 'A blog about software development',
   language: 'en-us',
   theme: 'system', // system, dark or light

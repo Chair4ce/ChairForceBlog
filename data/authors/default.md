@@ -1,6 +1,6 @@
 ---
 name: Jacy Hoag
-avatar: /static/images/avatar.png
+avatar: /static/images/jacyavatar.jpg
 occupation: ''
 company: 'Air Force'
 email: chairforceone@icloud.com
