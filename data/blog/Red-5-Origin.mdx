@@ -1,0 +1,170 @@
+---
+title: Red Five Origin - Failing fast
+date: '2023-01-07'
+tags:
+  [
+    'AgileAF',
+    'Air Force',
+    'Air Force Software Development',
+    'DoD Software Factory',
+    'Fail fast',
+    'Origin story',
+  ]
+draft: false
+summary: 'From the beginning'
+authors: ['jacyhoag']
+---
+
+## Origin of Red 5
+
+Our origin story is a shining example of failing fast. I think we did it before it was cool, but if you are a part of an
+outside organization, chances are you have already learned these lessons. However, if you are a small organic software
+factory that builds software for active duty members, there might be a few lessons learned in here for you.
+
+It all began with two very ambitious commanders. One of them went on to lead one of the biggest waves of software innovation
+in the Air Force called Kessel Run, which you may have heard of. The other one gathered a small team of rebels and sent them
+on a similar mission, however, it didn't go exactly as planned.
+
+The contract for Pivotal Labs was approved, and their instructions were to teach us how to build and deliver Agile software.
+A 4-member team was sent to Boston, and their full-time job was to sit alongside the "Pivots" and absorb everything they
+could from them. They pitched a real solution to a real problem and used it as a pilot for a 6-month engagement. The plan
+was to come back and install the app and the platform for the rest of the wing. Let's call this app App-Zero for context.
+App-Zero was intended for a small set of users and then grow the app little by little, using proper Agile methods. Let's
+call them the Zero-Users for now. This will become very important later on.
+
+6 months later, the team returned as promised with fire in their hearts and a very small, freshly-minted full-stack web
+application ready for the Zero-Users to use on mission and continue its development, or so they thought. They
+did as much as they could within the 6-month engagement, but it still needed more work before it was ready for the big leagues.
+I remember the day I received a call from the product owner, inviting me to join the software development team as a designer.
+I had no formal training in software engineering or design, but I was immediately drawn to the team's vision for building
+App-Zero and immediately accepted the offer.
+Soon, I found myself surrounded by a team of highly-driven, dedicated individuals with a huge plan to carry on the development
+of App-Zero, but something was wrong.
+
+Turns out App-Zero and the platform that Pivotal promised to deliver hit a massive setback that basically stopped them from
+doing what they were paid to do. While the team was out in Boston, work needed to be done at home to initiate the request
+for an Authority to Operate (ATO) and create a landing pad for Pivotal's platform. Well, I think you can guess what happened.
+The "landing pad" for App-Zero was definitely overpromised and underdelivered by, you guessed it, the "frozen middle." They
+were not getting what they needed to bring this app home. Even after warnings were issued and flags were raised, not even the
+commander could fix it in time before it was too late. The team was counting heavily on the few responsible for certain tasks,
+including the ATO. They were so busy learning how to build software that there was no way they could do it on their own, and
+when they returned, they felt defeated and perplexed that their support structure was gone.
+Not me, though. I was so happy to be there, pairing for the first time as a brand-new software designer, getting a firehose of
+information straight to the face. As a 3D1X2 Cyber Transport, I never thought in a million years I would
+have this kind of opportunity fall in my lap. Anyway, that's not even the end of our failing fast adventure.
+
+The Zero-Users were chosen as the first target because they were small and simple enough for the initial set of features on
+the road map and even if App-Zero failed it would be of no consequence since the main point of the hiring Pivotal was
+to establish a pipeline not just build an app. The Zero-Users happily agreed to help out, so they were off to their development phases.
+During those 6 months they worked very hard to gain their trust and their
+confidence to build them something they can actually use, until one day things changed for the worst.
+
+One of the best things users can tell you while you are building software is "it works!" and "we love it!" These types of
+comments drove the team forward and validated the small, iterative features they delivered week after week. However, 5 months
+into the engagement, the assumption that users loved the app backfired immediately when the team found out, well after it was
+ready for mission, that they weren't even using it. How does this happen? The team delivered each feature with 5 out of 5
+raving reviews, only to find out that they hadn't even started using it. A giant exclamation point just appeared over the
+head of every team member, including the "Pivots." "What do you mean you are not using it?" the team asked. "It's not
+approved software," a supervisor responded. The team tried to explain how different this situation was, how its development
+was initiated by the wing commander, and how the whole point of building the software with them for the past five months
+was understood by all parties involved that it would be ready for production and used on mission. Ultimately, the Airmen
+were ordered not to use it because it was not a "program of record." Before all you security folks scream, "Well, they're
+right, why are they not using approved software?!" The team understood, and the wing commander accepted this risk. They knew
+they were rebels in this environment and were out to prove the Agile model, with full intention of getting an ATO, but they
+needed to prove that Agile worked first.
+Anyway, the product team had to pivot and figure out how to get them to start using the app. They thought, "This is an easy
+fix; we just ask the wing commander to send out a letter to "approve" the app." Little did the team know, yet another disaster
+would ensue.
+
+## The letter that destroyed everything?
+
+The wing commander agreed that the solution was to send a letter to the site. That was a no-brainer for obvious reasons.
+The letter was prepped and proclaimed that "App-Zero" was ready to start using on mission, with a giant stamp of approval
+from the wing commander. Well, this turned out to be the same kind of letter that Inspector Gadget received before it would
+self-destruct. Though instead of blowing up in the hands of its intended recipient, it would blow up the development team
+instead. How could a single letter destroy everything?
+
+The users our team was working with were a very small part of the entire organization. Eventually, the app would be built
+to scale and tailored to the rest of the sites like any other enterprise-level software, but they had to keep it hidden
+from the rest of the sites. Building software immediately to scale is not Agile, especially with an 8-person team (plus 4 "Pivots").
+They had to prove its value in small increments, starting with the smallest scope feasible.
+
+So they sent the letter out, but instead of sending it to the site, it was accidentally sent to the entire wing. Every
+squadron and every group, including guard sites, received this email from the wing commander with instructions to start
+using "App-Zero" right now. The email with the approval letter included instructions to log in and start using it on
+mission - the "Zero-Users" mission. If there was ever a heart-stopping moment in the history of this team, this was it.
+Soon, the team had to go into damage control. Every unit, with completely different mission sets, jumped on "App-Zero"
+to see what this was all about and then immediately called the wing yelling "WHISKEY TANGO FOXTROT?" Like an orchestra,
+they all shouted "We can't use this!" and "Why is the wing commander making us use broken software?!" Well, you would
+think that there would be an easy explanation that would fix this right? It was simply not ready to scale to the entire
+enterprise. Unfortunately, it was not that simple; the damage was done and no other users, even the "Zero-Users," wanted
+to work with the team anymore. Any effort to recover "App-Zero" was too great.
+
+Soon, rumors spread, and the original vision and perception of this whole engagement with the team and "App-Zero" was
+destroyed in a single email. This new perception of the team trying to deliver 'broken software' to everyone solidified
+an old habit - we must wait for software to be completely finished before anyone even touches it. Then, 2 out of the 4
+original team members were recalled to their original units, and suddenly almost half of our team was gone. But not all
+hope was lost; we were not ready to give up.
+
+## Red 5 was born
+
+We never really thought of a team name, so we just called ourselves the Software Development Team (SDT) - sometimes
+confused for STD. It was an experience unlike any other - the energy was electric, and we didn't let the past affect us.
+We pushed forward with everything we had. We decided to pitch an idea to one of the co-located groups on base to start
+over. We essentially adopted new leadership that also believed in us as much as our outgoing wing commander. It felt like
+we had a new shield protecting us from anything that tried to stand in our way.
+
+Our new leadership provided top cover and then left us to our own devices, which allowed us to be autonomous and free to
+succeed (or fail). But with this kind of freedom came enormous responsibility, and we knew that in order to succeed, we
+had to give ourselves permission to fail. It was a scary, yet exhilarating feeling - the confidence that we would succeed
+mixed with the fear that we might fail again. But we didn't let that fear hold us back. We charged towards our failures
+with determination and resilience, learning from our mistakes and moving forward.
+
+After some convincing, we acquired some new computers and some space to start working. We became a new team unlike any
+other within our group, and soon it seemed that everyone wanted a piece of what we had - the freedom to innovate. Our
+previous dead-ends were just a notch on the board, a reminder of what didn't work, and a motivation to keep pressing
+forward. It was an incredible feeling to not be afraid of the word "no." It was a truly magical experience, and one
+that I will always remember.
+
+We were determined to find problems that our new agile methods could solve, so we conducted extensive user research and
+interviewed as many people as possible from various offices and positions. As we spoke with more people, patterns began
+to emerge, and we found close to 50 unique problem areas. The more we learned about these problems, the more complex they seemed.
+
+We used the information we gathered to prove the existence of these issues and presented them to leadership in a meeting
+called Problem Discovery. We were surprised to find that some problems thought to have been solved by leadership were
+actually worse than before. In other cases, the issues were so small that it was astonishing that no one had attempted
+to solve them using available tools.
+
+Manual research like this is underused in the military. Industry can do it well, but we don't give them access to users.
+We often rely on large surveys or broadcast emails for feedback, but these methods often have low response rates. Instead
+of truly understanding the problems facing our airmen, we end up implementing our own ideas without proper input. Even
+the best ideas often float up from the source as so-called SMEs inject their 20-year-old input, and by the time it makes
+its way onto a desk that can actually secure funds, it has lost its ability to solve the problem.
+
+Our success in user research was due in part to our genuine care for the users and our ability to establish trust with
+them. As a result, they were more honest about their problems and felt comfortable sharing ideas that they might have
+otherwise been hesitant to bring up to leadership.
+
+We locked in on one of the problem spaces we found with the highest impact and value. We really needed a quick win to
+re-establish our original vision before the team went out to Boston. It turned out to be a winner. We built our first
+successful app, used by thousands and still living on today. It's called The Black Pearl.
+
+It wasn't until much later, around App Four, that we finalized the team name Red 5, but this is definitely the story
+that inspired it. From the ashes, we rose up like rebels (Agile) to fight the evil empire (Frozen Middle) to destroy
+the Death Star (Waterfall).
+
+## After testing out many logos...
+
+### Started with this one for a while:
+
+![Temporary](/static/images/Old_red_five.png)
+
+### Tested some more for multiple platforms:
+
+![Collage](/static/images/Logo_collage.png)
+
+### In the end we decided on this one:
+
+![Final](/static/images/Red_5_final.png)
+
+Up next, 'The Black Pearl' (The app, not the Navy Software Factory)
