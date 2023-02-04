@@ -3,6 +3,7 @@ name: Jacy Hoag
 avatar: /static/images/jacyavatar.jpg
 occupation: Cyber Transport
 company: Air Force
+email: chairforceone@icloud.com
 twitter: https://twitter.com/Chair_Force_One
 linkedin: https://www.linkedin.com/in/jacy-hoag
 github: https://github.com/Chair4ce
